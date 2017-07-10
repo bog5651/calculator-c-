@@ -17,68 +17,51 @@ namespace calcularot
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void Listner(object sender, EventArgs e)
         {
             try
             {
-                double FirstArgumeng = Convert.ToDouble(textBox1.Text);
-                double SecondArgument = Convert.ToDouble(textBox1.Text);
-                double Result = FirstArgumeng + SecondArgument;
-                textBox3.Text = "+";
-                textBox4.Text = Convert.ToString(Result);
-            }
-            catch (Exception)
-            {
-                textBox4.Text = "что-то пошло не так";
-            }
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                double FirstArgumeng = Convert.ToDouble(textBox1.Text);
-                double SecondArgument = Convert.ToDouble(textBox1.Text);
-                double Result = FirstArgumeng - SecondArgument;
-                textBox3.Text = "-";
-                textBox4.Text = Convert.ToString(Result);
-            }
-            catch (Exception)
-            {
-                textBox4.Text = "что-то пошло не так";
-            }
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                double FirstArgumeng = Convert.ToDouble(textBox1.Text);
-                double SecondArgument = Convert.ToDouble(textBox1.Text);
-                double Result = FirstArgumeng * SecondArgument;
-                textBox3.Text = "*";
-                textBox4.Text = Convert.ToString(Result);
-            }
-            catch (Exception)
-            {
-                textBox4.Text = "что-то пошло не так";
-            }
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                double FirstArgumeng = Convert.ToDouble(textBox1.Text);
-                double SecondArgument = Convert.ToDouble(textBox1.Text);
-                double Result = FirstArgumeng / SecondArgument;
-                textBox3.Text = "/";
-                textBox4.Text = Convert.ToString(Result);
+                switch (((Button)sender).Name)
+                {
+                    case "button1":
+                        {
+                            double FirstArgumeng = Convert.ToDouble(textBox1.Text);
+                            double SecondArgument = Convert.ToDouble(textBox1.Text);
+                            double Result = FirstArgumeng + SecondArgument;
+                            textBox3.Text = "+";
+                            textBox4.Text = Convert.ToString(Result);
+                        }
+                        break;
+                    case "button2":
+                        {
+                            double FirstArgumeng = Convert.ToDouble(textBox1.Text);
+                            double SecondArgument = Convert.ToDouble(textBox1.Text);
+                            double Result = FirstArgumeng - SecondArgument;
+                            textBox3.Text = "-";
+                            textBox4.Text = Convert.ToString(Result);
+                        }
+                        break;
+                    case "button3":
+                        {
+                            double FirstArgumeng = Convert.ToDouble(textBox1.Text);
+                            double SecondArgument = Convert.ToDouble(textBox1.Text);
+                            double Result = FirstArgumeng * SecondArgument;
+                            textBox3.Text = "*";
+                            textBox4.Text = Convert.ToString(Result);
+                        }
+                        break;
+                    case "button4":
+                        {
+                            double FirstArgumeng = Convert.ToDouble(textBox1.Text);
+                            double SecondArgument = Convert.ToDouble(textBox1.Text);
+                            double Result = FirstArgumeng / SecondArgument;
+                            textBox3.Text = "/";
+                            textBox4.Text = Convert.ToString(Result);
+                        }
+                        break;
+                    default:
+                        break;
+                }
             }
             catch (Exception)
             {
