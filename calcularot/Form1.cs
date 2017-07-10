@@ -21,47 +21,39 @@ namespace calcularot
         {
             try
             {
+                double FirstArgumeng = Convert.ToDouble(textBox1.Text);
+                double SecondArgument = Convert.ToDouble(textBox1.Text);
+                double Result = 0;
                 switch (((Button)sender).Name)
                 {
                     case "button1":
-                        {
-                            double FirstArgumeng = Convert.ToDouble(textBox1.Text);
-                            double SecondArgument = Convert.ToDouble(textBox1.Text);
-                            double Result = FirstArgumeng + SecondArgument;
+                        { 
+                            Result = FirstArgumeng + SecondArgument;
                             textBox3.Text = "+";
-                            textBox4.Text = Convert.ToString(Result);
                         }
                         break;
                     case "button2":
                         {
-                            double FirstArgumeng = Convert.ToDouble(textBox1.Text);
-                            double SecondArgument = Convert.ToDouble(textBox1.Text);
-                            double Result = FirstArgumeng - SecondArgument;
+                            Result = FirstArgumeng - SecondArgument;
                             textBox3.Text = "-";
-                            textBox4.Text = Convert.ToString(Result);
                         }
                         break;
                     case "button3":
                         {
-                            double FirstArgumeng = Convert.ToDouble(textBox1.Text);
-                            double SecondArgument = Convert.ToDouble(textBox1.Text);
-                            double Result = FirstArgumeng * SecondArgument;
+                            Result = FirstArgumeng * SecondArgument;
                             textBox3.Text = "*";
-                            textBox4.Text = Convert.ToString(Result);
                         }
                         break;
                     case "button4":
                         {
-                            double FirstArgumeng = Convert.ToDouble(textBox1.Text);
-                            double SecondArgument = Convert.ToDouble(textBox1.Text);
-                            double Result = FirstArgumeng / SecondArgument;
+                            Result = FirstArgumeng / SecondArgument;
                             textBox3.Text = "/";
-                            textBox4.Text = Convert.ToString(Result);
                         }
                         break;
                     default:
                         break;
                 }
+                textBox4.Text = Convert.ToString(Result);
             }
             catch (Exception)
             {
