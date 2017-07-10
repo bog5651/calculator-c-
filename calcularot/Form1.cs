@@ -21,39 +21,39 @@ namespace calcularot
         {
             try
             {
-                double FirstArgumeng = Convert.ToDouble(textBox1.Text);
-                double SecondArgument = Convert.ToDouble(textBox1.Text);
-                double Result = 0;
+                double firstArgumeng = Convert.ToDouble(textBox1.Text);
+                double secondArgument = Convert.ToDouble(textBox1.Text);
+                double result;
                 switch (((Button)sender).Name)
                 {
                     case "button1":
                         { 
-                            Result = FirstArgumeng + SecondArgument;
+                            result = firstArgumeng + secondArgument;
                             textBox3.Text = "+";
                         }
                         break;
                     case "button2":
                         {
-                            Result = FirstArgumeng - SecondArgument;
+                            result = firstArgumeng - secondArgument;
                             textBox3.Text = "-";
                         }
                         break;
                     case "button3":
                         {
-                            Result = FirstArgumeng * SecondArgument;
+                            result = firstArgumeng * secondArgument;
                             textBox3.Text = "*";
                         }
                         break;
                     case "button4":
                         {
-                            Result = FirstArgumeng / SecondArgument;
+                            result = firstArgumeng / secondArgument;
                             textBox3.Text = "/";
                         }
                         break;
                     default:
-                        break;
+                        throw new Exception("Неизвестная операция");
                 }
-                textBox4.Text = Convert.ToString(Result);
+                textBox4.Text = Convert.ToString(result);
             }
             catch (Exception)
             {
