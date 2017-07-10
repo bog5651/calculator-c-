@@ -1,0 +1,9 @@
+c:\users\евгений\documents\visual studio 2017\Projects\calcularot\calcularot\bin\Debug\calcularot.exe.config
+c:\users\евгений\documents\visual studio 2017\Projects\calcularot\calcularot\bin\Debug\calcularot.exe
+c:\users\евгений\documents\visual studio 2017\Projects\calcularot\calcularot\bin\Debug\calcularot.pdb
+c:\users\евгений\documents\visual studio 2017\Projects\calcularot\calcularot\obj\Debug\calcularot.csprojResolveAssemblyReference.cache
+c:\users\евгений\documents\visual studio 2017\Projects\calcularot\calcularot\obj\Debug\calcularot.Form1.resources
+c:\users\евгений\documents\visual studio 2017\Projects\calcularot\calcularot\obj\Debug\calcularot.Properties.Resources.resources
+c:\users\евгений\documents\visual studio 2017\Projects\calcularot\calcularot\obj\Debug\calcularot.csproj.GenerateResource.Cache
+c:\users\евгений\documents\visual studio 2017\Projects\calcularot\calcularot\obj\Debug\calcularot.exe
+c:\users\евгений\documents\visual studio 2017\Projects\calcularot\calcularot\obj\Debug\calcularot.pdb
