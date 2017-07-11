@@ -17,6 +17,12 @@ namespace calcularot
                     return new Multiplication();
                 case "Division":
                     return new Division();
+                case "Remainder":
+                    return new Remainder();
+                case "Arithmeticmean":
+                    return new Arithmeticmean();
+                case "Geometricmean":
+                    return new Geometricmean();
                 default:
                     throw new Exception("Неизвестная операция");
             }

@@ -50,17 +50,20 @@
     <Compile Include="OneArgumentClass\Arctan.cs" />
     <Compile Include="OneArgumentClass\Ctan.cs" />
     <Compile Include="OneArgumentClass\GradinRad.cs" />
+    <Compile Include="TwoArgumentClass\Remainder.cs" />
     <Compile Include="TwoArgumentClass\addition.cs" />
     <Compile Include="OneArgumentClass\Arccos.cs" />
     <Compile Include="OneArgumentClass\Arcsin.cs" />
     <Compile Include="OneArgumentClass\Cos.cs" />
     <Compile Include="OneArgumentClass\CosG.cs" />
+    <Compile Include="TwoArgumentClass\Arithmeticmean.cs" />
     <Compile Include="TwoArgumentClass\Division.cs" />
     <Compile Include="IOneArgumentsCalculation.cs" />
     <Compile Include="OneArgumentClass\Ln.cs" />
     <Compile Include="OneArgumentClass\Ex.cs" />
     <Compile Include="OneArgumentClass\Log10.cs" />
     <Compile Include="OneArgumentClass\Log2.cs" />
+    <Compile Include="TwoArgumentClass\Geometricmean.cs" />
     <Compile Include="TwoArgumentClass\Multiplication.cs" />
     <Compile Include="OneArgumentFactory.cs" />
     <Compile Include="OneArgumentClass\sinG.cs" />
@@ -80,7 +83,7 @@
     <Compile Include="OneArgumentClass\x1.cs" />
     <Compile Include="OneArgumentClass\x10.cs" />
     <Compile Include="OneArgumentClass\x2.cs" />
-    <Compile Include="RadinGrad.cs" />
+    <Compile Include="OneArgumentClass\RadinGrad.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

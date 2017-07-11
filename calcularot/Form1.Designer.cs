@@ -59,6 +59,9 @@
             this.RadinGrad = new System.Windows.Forms.Button();
             this.GradinRad = new System.Windows.Forms.Button();
             this.Abs = new System.Windows.Forms.Button();
+            this.Remainder = new System.Windows.Forms.Button();
+            this.Arithmeticmean = new System.Windows.Forms.Button();
+            this.Geometricmean = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -356,11 +359,41 @@
             this.Abs.UseVisualStyleBackColor = true;
             this.Abs.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
+            // Remainder
+            // 
+            this.Remainder.Location = new System.Drawing.Point(0, 302);
+            this.Remainder.Name = "Remainder";
+            this.Remainder.Size = new System.Drawing.Size(75, 23);
+            this.Remainder.TabIndex = 32;
+            this.Remainder.Text = "Remainder";
+            this.Remainder.UseVisualStyleBackColor = true;
+            // 
+            // Arithmeticmean
+            // 
+            this.Arithmeticmean.Location = new System.Drawing.Point(81, 302);
+            this.Arithmeticmean.Name = "Arithmeticmean";
+            this.Arithmeticmean.Size = new System.Drawing.Size(90, 23);
+            this.Arithmeticmean.TabIndex = 33;
+            this.Arithmeticmean.Text = "Arithmeticmean";
+            this.Arithmeticmean.UseVisualStyleBackColor = true;
+            // 
+            // Geometricmean
+            // 
+            this.Geometricmean.Location = new System.Drawing.Point(172, 302);
+            this.Geometricmean.Name = "Geometricmean";
+            this.Geometricmean.Size = new System.Drawing.Size(95, 23);
+            this.Geometricmean.TabIndex = 34;
+            this.Geometricmean.Text = "Geometricmean";
+            this.Geometricmean.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 326);
+            this.ClientSize = new System.Drawing.Size(284, 367);
+            this.Controls.Add(this.Geometricmean);
+            this.Controls.Add(this.Arithmeticmean);
+            this.Controls.Add(this.Remainder);
             this.Controls.Add(this.Abs);
             this.Controls.Add(this.GradinRad);
             this.Controls.Add(this.RadinGrad);
@@ -432,6 +465,9 @@
         private System.Windows.Forms.Button RadinGrad;
         private System.Windows.Forms.Button GradinRad;
         private System.Windows.Forms.Button Abs;
+        private System.Windows.Forms.Button Remainder;
+        private System.Windows.Forms.Button Arithmeticmean;
+        private System.Windows.Forms.Button Geometricmean;
     }
 }
 

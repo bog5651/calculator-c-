@@ -16,3 +16,12 @@ D:\123\calcularot\obj\Debug\calcularot.Properties.Resources.resources
 D:\123\calcularot\obj\Debug\calcularot.csproj.GenerateResource.Cache
 D:\123\calcularot\obj\Debug\calcularot.exe
 D:\123\calcularot\obj\Debug\calcularot.pdb
+C:\Documents\git\123\calculator-c-\calcularot\bin\Debug\calcularot.exe.config
+C:\Documents\git\123\calculator-c-\calcularot\bin\Debug\calcularot.exe
+C:\Documents\git\123\calculator-c-\calcularot\bin\Debug\calcularot.pdb
+C:\Documents\git\123\calculator-c-\calcularot\obj\Debug\calcularot.csprojResolveAssemblyReference.cache
+C:\Documents\git\123\calculator-c-\calcularot\obj\Debug\calcularot.Form1.resources
+C:\Documents\git\123\calculator-c-\calcularot\obj\Debug\calcularot.Properties.Resources.resources
+C:\Documents\git\123\calculator-c-\calcularot\obj\Debug\calcularot.csproj.GenerateResource.Cache
+C:\Documents\git\123\calculator-c-\calcularot\obj\Debug\calcularot.exe
+C:\Documents\git\123\calculator-c-\calcularot\obj\Debug\calcularot.pdb
