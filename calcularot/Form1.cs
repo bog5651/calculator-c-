@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using calcularot.MathFunction_factory_and_intarface;
 
 namespace calcularot
 {

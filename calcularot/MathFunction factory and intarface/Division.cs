@@ -1,4 +1,4 @@
-﻿namespace calcularot
+﻿namespace calcularot.MathFunction_factory_and_intarface
 {
     public class Division : ITwoArgumentsCalculation
     {

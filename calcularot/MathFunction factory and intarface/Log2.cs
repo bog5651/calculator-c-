@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace calcularot
+namespace calcularot.MathFunction_factory_and_intarface
 {
     public class Log2 : IOneArgumentsCalculation
     {
