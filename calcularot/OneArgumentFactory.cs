@@ -16,6 +16,18 @@ namespace calcularot
                     return new Tan();
                 case "Ln":
                     return new Ln();
+                case "ex":
+                    return new Ex();
+                case "Log2":
+                    return new Log2();
+                case "Log10":
+                    return new Log10();
+                case "x2":
+                    return new x2();
+                case "x10":
+                    return new x10();
+                case "x1":
+                    return new x1();
                 default: throw new Exception("Неизвестная операция");
             }
         }

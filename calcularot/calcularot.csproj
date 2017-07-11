@@ -50,6 +50,9 @@
     <Compile Include="Division.cs" />
     <Compile Include="IOneArgumentsCalculation.cs" />
     <Compile Include="Ln.cs" />
+    <Compile Include="Ex.cs" />
+    <Compile Include="Log10.cs" />
+    <Compile Include="Log2.cs" />
     <Compile Include="Multiplication.cs" />
     <Compile Include="OneArgumentFactory.cs" />
     <Compile Include="Sin.cs" />
@@ -65,6 +68,9 @@
     <Compile Include="ITwoArgumentsCalculation.cs" />
     <Compile Include="Tan.cs" />
     <Compile Include="TwoArgumentFactory.cs" />
+    <Compile Include="x1.cs" />
+    <Compile Include="x10.cs" />
+    <Compile Include="x2.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

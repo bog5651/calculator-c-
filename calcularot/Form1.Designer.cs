@@ -43,7 +43,7 @@
             this.cos = new System.Windows.Forms.Button();
             this.tan = new System.Windows.Forms.Button();
             this.Ln = new System.Windows.Forms.Button();
-            this.Log = new System.Windows.Forms.Button();
+            this.ex = new System.Windows.Forms.Button();
             this.Log2 = new System.Windows.Forms.Button();
             this.Log10 = new System.Windows.Forms.Button();
             this.x2 = new System.Windows.Forms.Button();
@@ -186,15 +186,15 @@
             this.Ln.UseVisualStyleBackColor = true;
             this.Ln.Click += new System.EventHandler(this.ListnerOneArgumentsFunction);
             // 
-            // Log
+            // ex
             // 
-            this.Log.Location = new System.Drawing.Point(86, 185);
-            this.Log.Name = "Log";
-            this.Log.Size = new System.Drawing.Size(36, 23);
-            this.Log.TabIndex = 16;
-            this.Log.Text = "Log";
-            this.Log.UseVisualStyleBackColor = true;
-            this.Log.Click += new System.EventHandler(this.ListnerOneArgumentsFunction);
+            this.ex.Location = new System.Drawing.Point(86, 185);
+            this.ex.Name = "ex";
+            this.ex.Size = new System.Drawing.Size(36, 23);
+            this.ex.TabIndex = 16;
+            this.ex.Text = "e^x";
+            this.ex.UseVisualStyleBackColor = true;
+            this.ex.Click += new System.EventHandler(this.ListnerOneArgumentsFunction);
             // 
             // Log2
             // 
@@ -256,7 +256,7 @@
             this.Controls.Add(this.x2);
             this.Controls.Add(this.Log10);
             this.Controls.Add(this.Log2);
-            this.Controls.Add(this.Log);
+            this.Controls.Add(this.ex);
             this.Controls.Add(this.Ln);
             this.Controls.Add(this.tan);
             this.Controls.Add(this.cos);
@@ -296,7 +296,7 @@
         private System.Windows.Forms.Button cos;
         private System.Windows.Forms.Button tan;
         private System.Windows.Forms.Button Ln;
-        private System.Windows.Forms.Button Log;
+        private System.Windows.Forms.Button ex;
         private System.Windows.Forms.Button Log2;
         private System.Windows.Forms.Button Log10;
         private System.Windows.Forms.Button x2;
