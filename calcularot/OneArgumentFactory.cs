@@ -1,6 +1,7 @@
 ﻿using System;
+using calcularot.OneArgumentClass;
 
-namespace calcularot.MathFunction_factory_and_intarface
+namespace calcularot
 {
     public static class OneArgumentFactory
     {
@@ -28,7 +29,7 @@ namespace calcularot.MathFunction_factory_and_intarface
                     return new x10();
                 case "x1":
                     return new x1();
-                case "SinG":
+                case "sinG":
                     return new SinG();
                 case "CosG":
                     return new CosG();

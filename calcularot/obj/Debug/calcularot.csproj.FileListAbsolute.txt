@@ -7,3 +7,12 @@ c:\users\евгений\documents\visual studio 2017\Projects\calcularot\calcula
 c:\users\евгений\documents\visual studio 2017\Projects\calcularot\calcularot\obj\Debug\calcularot.csproj.GenerateResource.Cache
 c:\users\евгений\documents\visual studio 2017\Projects\calcularot\calcularot\obj\Debug\calcularot.exe
 c:\users\евгений\documents\visual studio 2017\Projects\calcularot\calcularot\obj\Debug\calcularot.pdb
+D:\123\calcularot\bin\Debug\calcularot.exe.config
+D:\123\calcularot\bin\Debug\calcularot.exe
+D:\123\calcularot\bin\Debug\calcularot.pdb
+D:\123\calcularot\obj\Debug\calcularot.csprojResolveAssemblyReference.cache
+D:\123\calcularot\obj\Debug\calcularot.Form1.resources
+D:\123\calcularot\obj\Debug\calcularot.Properties.Resources.resources
+D:\123\calcularot\obj\Debug\calcularot.csproj.GenerateResource.Cache
+D:\123\calcularot\obj\Debug\calcularot.exe
+D:\123\calcularot\obj\Debug\calcularot.pdb

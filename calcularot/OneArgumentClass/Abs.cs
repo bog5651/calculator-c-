@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace calcularot
+namespace calcularot.OneArgumentClass
 {
-    public class Abs : MathFunction_factory_and_intarface.IOneArgumentsCalculation
+    public class Abs : IOneArgumentsCalculation
     {
         public double Calculate(double firstVlue)
         {

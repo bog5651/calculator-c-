@@ -90,7 +90,7 @@
             this.Plus.TabIndex = 3;
             this.Plus.Text = "+";
             this.Plus.UseVisualStyleBackColor = true;
-            this.Plus.Click += new System.EventHandler(this.Listner);
+            this.Plus.Click += new System.EventHandler(this.ListenerTwoArgumentFunction);
             // 
             // Minus
             // 
@@ -100,7 +100,7 @@
             this.Minus.TabIndex = 4;
             this.Minus.Text = "-";
             this.Minus.UseVisualStyleBackColor = true;
-            this.Minus.Click += new System.EventHandler(this.Listner);
+            this.Minus.Click += new System.EventHandler(this.ListenerTwoArgumentFunction);
             // 
             // Multiplire
             // 
@@ -110,7 +110,7 @@
             this.Multiplire.TabIndex = 5;
             this.Multiplire.Text = "*";
             this.Multiplire.UseVisualStyleBackColor = true;
-            this.Multiplire.Click += new System.EventHandler(this.Listner);
+            this.Multiplire.Click += new System.EventHandler(this.ListenerTwoArgumentFunction);
             // 
             // Division
             // 
@@ -120,7 +120,7 @@
             this.Division.TabIndex = 6;
             this.Division.Text = "/";
             this.Division.UseVisualStyleBackColor = true;
-            this.Division.Click += new System.EventHandler(this.Listner);
+            this.Division.Click += new System.EventHandler(this.ListenerTwoArgumentFunction);
             // 
             // label1
             // 
@@ -164,7 +164,7 @@
             this.sin.TabIndex = 12;
             this.sin.Text = "sin";
             this.sin.UseVisualStyleBackColor = true;
-            this.sin.Click += new System.EventHandler(this.ListnerOneArgumentsFunction);
+            this.sin.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // cos
             // 
@@ -174,7 +174,7 @@
             this.cos.TabIndex = 13;
             this.cos.Text = "cos";
             this.cos.UseVisualStyleBackColor = true;
-            this.cos.Click += new System.EventHandler(this.ListnerOneArgumentsFunction);
+            this.cos.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // tan
             // 
@@ -184,7 +184,7 @@
             this.tan.TabIndex = 14;
             this.tan.Text = "tan";
             this.tan.UseVisualStyleBackColor = true;
-            this.tan.Click += new System.EventHandler(this.ListnerOneArgumentsFunction);
+            this.tan.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // Ln
             // 
@@ -194,7 +194,7 @@
             this.Ln.TabIndex = 15;
             this.Ln.Text = "Ln";
             this.Ln.UseVisualStyleBackColor = true;
-            this.Ln.Click += new System.EventHandler(this.ListnerOneArgumentsFunction);
+            this.Ln.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // ex
             // 
@@ -204,7 +204,7 @@
             this.ex.TabIndex = 16;
             this.ex.Text = "e^x";
             this.ex.UseVisualStyleBackColor = true;
-            this.ex.Click += new System.EventHandler(this.ListnerOneArgumentsFunction);
+            this.ex.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // Log2
             // 
@@ -214,7 +214,7 @@
             this.Log2.TabIndex = 17;
             this.Log2.Text = "Log2";
             this.Log2.UseVisualStyleBackColor = true;
-            this.Log2.Click += new System.EventHandler(this.ListnerOneArgumentsFunction);
+            this.Log2.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // Log10
             // 
@@ -224,7 +224,7 @@
             this.Log10.TabIndex = 18;
             this.Log10.Text = "Log10";
             this.Log10.UseVisualStyleBackColor = true;
-            this.Log10.Click += new System.EventHandler(this.ListnerOneArgumentsFunction);
+            this.Log10.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // x2
             // 
@@ -234,7 +234,7 @@
             this.x2.TabIndex = 19;
             this.x2.Text = "x^2";
             this.x2.UseVisualStyleBackColor = true;
-            this.x2.Click += new System.EventHandler(this.ListnerOneArgumentsFunction);
+            this.x2.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // x10
             // 
@@ -244,7 +244,7 @@
             this.x10.TabIndex = 20;
             this.x10.Text = "10^x";
             this.x10.UseVisualStyleBackColor = true;
-            this.x10.Click += new System.EventHandler(this.ListnerOneArgumentsFunction);
+            this.x10.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // x1
             // 
@@ -254,7 +254,7 @@
             this.x1.TabIndex = 21;
             this.x1.Text = "1/x";
             this.x1.UseVisualStyleBackColor = true;
-            this.x1.Click += new System.EventHandler(this.ListnerOneArgumentsFunction);
+            this.x1.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // sinG
             // 
@@ -264,6 +264,7 @@
             this.sinG.TabIndex = 22;
             this.sinG.Text = "Sin Grad";
             this.sinG.UseVisualStyleBackColor = true;
+            this.sinG.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // CosG
             // 
@@ -273,6 +274,7 @@
             this.CosG.TabIndex = 23;
             this.CosG.Text = "Cos Grad";
             this.CosG.UseVisualStyleBackColor = true;
+            this.CosG.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // Arcsin
             // 
@@ -282,6 +284,7 @@
             this.Arcsin.TabIndex = 24;
             this.Arcsin.Text = "Arcsin";
             this.Arcsin.UseVisualStyleBackColor = true;
+            this.Arcsin.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // Arccos
             // 
@@ -291,6 +294,7 @@
             this.Arccos.TabIndex = 25;
             this.Arccos.Text = "Arccos";
             this.Arccos.UseVisualStyleBackColor = true;
+            this.Arccos.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // Ctan
             // 
@@ -300,6 +304,7 @@
             this.Ctan.TabIndex = 26;
             this.Ctan.Text = "Ctan";
             this.Ctan.UseVisualStyleBackColor = true;
+            this.Ctan.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // Arctan
             // 
@@ -309,6 +314,7 @@
             this.Arctan.TabIndex = 27;
             this.Arctan.Text = "Arctan";
             this.Arctan.UseVisualStyleBackColor = true;
+            this.Arctan.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // ArcsinG
             // 
@@ -318,6 +324,7 @@
             this.ArcsinG.TabIndex = 28;
             this.ArcsinG.Text = "Arcsin Grad";
             this.ArcsinG.UseVisualStyleBackColor = true;
+            this.ArcsinG.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // RadinGrad
             // 
@@ -327,6 +334,7 @@
             this.RadinGrad.TabIndex = 29;
             this.RadinGrad.Text = "Rad in Grad";
             this.RadinGrad.UseVisualStyleBackColor = true;
+            this.RadinGrad.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // GradinRad
             // 
@@ -336,6 +344,7 @@
             this.GradinRad.TabIndex = 30;
             this.GradinRad.Text = "Grad in Rad";
             this.GradinRad.UseVisualStyleBackColor = true;
+            this.GradinRad.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // Abs
             // 
@@ -345,6 +354,7 @@
             this.Abs.TabIndex = 31;
             this.Abs.Text = "Abs";
             this.Abs.UseVisualStyleBackColor = true;
+            this.Abs.Click += new System.EventHandler(this.ListenerOneArgumentsFunction);
             // 
             // Form1
             // 

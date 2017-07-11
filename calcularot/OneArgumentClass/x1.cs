@@ -1,4 +1,4 @@
-﻿namespace calcularot.MathFunction_factory_and_intarface
+﻿namespace calcularot.OneArgumentClass
 {
     public class x1 : IOneArgumentsCalculation
     {

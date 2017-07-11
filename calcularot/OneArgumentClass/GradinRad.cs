@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace calcularot
+namespace calcularot.OneArgumentClass
 {
-    public class GradinRad : MathFunction_factory_and_intarface.IOneArgumentsCalculation
+    public class GradinRad : IOneArgumentsCalculation
     {
         public double Calculate(double firstVlue)
         {

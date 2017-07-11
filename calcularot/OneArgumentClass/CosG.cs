@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace calcularot.MathFunction_factory_and_intarface
+namespace calcularot.OneArgumentClass
 {
     public class CosG : IOneArgumentsCalculation
     {

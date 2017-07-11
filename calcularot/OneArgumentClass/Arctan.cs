@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace calcularot
+namespace calcularot.OneArgumentClass
 {
-    public class Arctan : MathFunction_factory_and_intarface.IOneArgumentsCalculation
+    public class Arctan : IOneArgumentsCalculation
     {
         public double Calculate(double firstVlue)
         {

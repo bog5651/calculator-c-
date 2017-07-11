@@ -1,6 +1,7 @@
 ﻿using System;
+using calcularot.TwoArgumentClass;
 
-namespace calcularot.MathFunction_factory_and_intarface
+namespace calcularot
 {
     public static class TwoArgumentFactory
     {

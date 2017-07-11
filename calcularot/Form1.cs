@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using calcularot.MathFunction_factory_and_intarface;
 
 namespace calcularot
 {
@@ -11,20 +10,20 @@ namespace calcularot
             InitializeComponent();
         }
 
-        private void Listner(object sender, EventArgs e)
+        private void ListenerTwoArgumentFunction(object sender, EventArgs e)
         {
-            double firstArgumeng = Convert.ToDouble(textBox1.Text);
+            double firstArgument = Convert.ToDouble(textBox1.Text);
             double secondArgument = Convert.ToDouble(textBox2.Text);
             ITwoArgumentsCalculation calculator = TwoArgumentFactory.CreatCalculation(((Button) sender).Name);
-            var result = calculator.Calculate(firstArgumeng, secondArgument);
+            var result = calculator.Calculate(firstArgument, secondArgument);
             textBox4.Text = result.ToString();
         }
 
-        private void ListnerOneArgumentsFunction(object sender, EventArgs e)
+        private void ListenerOneArgumentsFunction(object sender, EventArgs e)
         {
-            double firstArgumeng = Convert.ToDouble(textBox1.Text);
+            double firstArgument = Convert.ToDouble(textBox1.Text);
             IOneArgumentsCalculation calculator = OneArgumentFactory.CreatCalculation(((Button)sender).Name);
-            var result = calculator.Calculate(firstArgumeng);
+            var result = calculator.Calculate(firstArgument);
             textBox4.Text = result.ToString();
         }
     }
