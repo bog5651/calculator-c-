@@ -1,5 +1,6 @@
 ﻿using System;
-namespace calcularot
+
+namespace calcularot.OneArgumentClass
 {
     public class RadinGrad : IOneArgumentsCalculation
     {

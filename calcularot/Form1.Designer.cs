@@ -367,6 +367,7 @@
             this.Remainder.TabIndex = 32;
             this.Remainder.Text = "Remainder";
             this.Remainder.UseVisualStyleBackColor = true;
+            this.Remainder.Click += new System.EventHandler(this.ListenerTwoArgumentFunction);
             // 
             // Arithmeticmean
             // 
@@ -376,6 +377,7 @@
             this.Arithmeticmean.TabIndex = 33;
             this.Arithmeticmean.Text = "Arithmeticmean";
             this.Arithmeticmean.UseVisualStyleBackColor = true;
+            this.Arithmeticmean.Click += new System.EventHandler(this.ListenerTwoArgumentFunction);
             // 
             // Geometricmean
             // 
@@ -385,6 +387,7 @@
             this.Geometricmean.TabIndex = 34;
             this.Geometricmean.Text = "Geometricmean";
             this.Geometricmean.UseVisualStyleBackColor = true;
+            this.Geometricmean.Click += new System.EventHandler(this.ListenerTwoArgumentFunction);
             // 
             // Form1
             // 

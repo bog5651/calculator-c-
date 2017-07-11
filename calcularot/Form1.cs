@@ -17,7 +17,7 @@ namespace calcularot
             double secondArgument = Convert.ToDouble(textBox2.Text);
             ITwoArgumentsCalculation calculator = TwoArgumentFactory.CreatCalculation(((Button) sender).Name);
             var result = calculator.Calculate(firstArgument, secondArgument);
-            textBox4.Text = result.ToString(CultureInfo.InvariantCulture);
+            textBox4.Text = result.ToString();
         }
 
         private void ListenerOneArgumentsFunction(object sender, EventArgs e)
@@ -25,7 +25,7 @@ namespace calcularot
             double firstArgument = Convert.ToDouble(textBox1.Text);
             IOneArgumentsCalculation calculator = OneArgumentFactory.CreatCalculation(((Button)sender).Name);
             var result = calculator.Calculate(firstArgument);
-            textBox4.Text = result.ToString(CultureInfo.InvariantCulture);
+            textBox4.Text = result.ToString();
         }
     }
 }
