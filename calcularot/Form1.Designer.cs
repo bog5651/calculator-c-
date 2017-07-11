@@ -49,6 +49,16 @@
             this.x2 = new System.Windows.Forms.Button();
             this.x10 = new System.Windows.Forms.Button();
             this.x1 = new System.Windows.Forms.Button();
+            this.sinG = new System.Windows.Forms.Button();
+            this.CosG = new System.Windows.Forms.Button();
+            this.Arcsin = new System.Windows.Forms.Button();
+            this.Arccos = new System.Windows.Forms.Button();
+            this.Ctan = new System.Windows.Forms.Button();
+            this.Arctan = new System.Windows.Forms.Button();
+            this.ArcsinG = new System.Windows.Forms.Button();
+            this.RadinGrad = new System.Windows.Forms.Button();
+            this.GradinRad = new System.Windows.Forms.Button();
+            this.Abs = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -246,11 +256,111 @@
             this.x1.UseVisualStyleBackColor = true;
             this.x1.Click += new System.EventHandler(this.ListnerOneArgumentsFunction);
             // 
+            // sinG
+            // 
+            this.sinG.Location = new System.Drawing.Point(96, 215);
+            this.sinG.Name = "sinG";
+            this.sinG.Size = new System.Drawing.Size(61, 23);
+            this.sinG.TabIndex = 22;
+            this.sinG.Text = "Sin Grad";
+            this.sinG.UseVisualStyleBackColor = true;
+            // 
+            // CosG
+            // 
+            this.CosG.Location = new System.Drawing.Point(162, 215);
+            this.CosG.Name = "CosG";
+            this.CosG.Size = new System.Drawing.Size(61, 23);
+            this.CosG.TabIndex = 23;
+            this.CosG.Text = "Cos Grad";
+            this.CosG.UseVisualStyleBackColor = true;
+            // 
+            // Arcsin
+            // 
+            this.Arcsin.Location = new System.Drawing.Point(229, 215);
+            this.Arcsin.Name = "Arcsin";
+            this.Arcsin.Size = new System.Drawing.Size(51, 23);
+            this.Arcsin.TabIndex = 24;
+            this.Arcsin.Text = "Arcsin";
+            this.Arcsin.UseVisualStyleBackColor = true;
+            // 
+            // Arccos
+            // 
+            this.Arccos.Location = new System.Drawing.Point(0, 244);
+            this.Arccos.Name = "Arccos";
+            this.Arccos.Size = new System.Drawing.Size(51, 23);
+            this.Arccos.TabIndex = 25;
+            this.Arccos.Text = "Arccos";
+            this.Arccos.UseVisualStyleBackColor = true;
+            // 
+            // Ctan
+            // 
+            this.Ctan.Location = new System.Drawing.Point(57, 244);
+            this.Ctan.Name = "Ctan";
+            this.Ctan.Size = new System.Drawing.Size(48, 23);
+            this.Ctan.TabIndex = 26;
+            this.Ctan.Text = "Ctan";
+            this.Ctan.UseVisualStyleBackColor = true;
+            // 
+            // Arctan
+            // 
+            this.Arctan.Location = new System.Drawing.Point(111, 244);
+            this.Arctan.Name = "Arctan";
+            this.Arctan.Size = new System.Drawing.Size(75, 23);
+            this.Arctan.TabIndex = 27;
+            this.Arctan.Text = "Arctan";
+            this.Arctan.UseVisualStyleBackColor = true;
+            // 
+            // ArcsinG
+            // 
+            this.ArcsinG.Location = new System.Drawing.Point(192, 244);
+            this.ArcsinG.Name = "ArcsinG";
+            this.ArcsinG.Size = new System.Drawing.Size(75, 23);
+            this.ArcsinG.TabIndex = 28;
+            this.ArcsinG.Text = "Arcsin Grad";
+            this.ArcsinG.UseVisualStyleBackColor = true;
+            // 
+            // RadinGrad
+            // 
+            this.RadinGrad.Location = new System.Drawing.Point(0, 273);
+            this.RadinGrad.Name = "RadinGrad";
+            this.RadinGrad.Size = new System.Drawing.Size(75, 23);
+            this.RadinGrad.TabIndex = 29;
+            this.RadinGrad.Text = "Rad in Grad";
+            this.RadinGrad.UseVisualStyleBackColor = true;
+            // 
+            // GradinRad
+            // 
+            this.GradinRad.Location = new System.Drawing.Point(81, 273);
+            this.GradinRad.Name = "GradinRad";
+            this.GradinRad.Size = new System.Drawing.Size(75, 23);
+            this.GradinRad.TabIndex = 30;
+            this.GradinRad.Text = "Grad in Rad";
+            this.GradinRad.UseVisualStyleBackColor = true;
+            // 
+            // Abs
+            // 
+            this.Abs.Location = new System.Drawing.Point(162, 273);
+            this.Abs.Name = "Abs";
+            this.Abs.Size = new System.Drawing.Size(75, 23);
+            this.Abs.TabIndex = 31;
+            this.Abs.Text = "Abs";
+            this.Abs.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(284, 326);
+            this.Controls.Add(this.Abs);
+            this.Controls.Add(this.GradinRad);
+            this.Controls.Add(this.RadinGrad);
+            this.Controls.Add(this.ArcsinG);
+            this.Controls.Add(this.Arctan);
+            this.Controls.Add(this.Ctan);
+            this.Controls.Add(this.Arccos);
+            this.Controls.Add(this.Arcsin);
+            this.Controls.Add(this.CosG);
+            this.Controls.Add(this.sinG);
             this.Controls.Add(this.x1);
             this.Controls.Add(this.x10);
             this.Controls.Add(this.x2);
@@ -302,6 +412,16 @@
         private System.Windows.Forms.Button x2;
         private System.Windows.Forms.Button x10;
         private System.Windows.Forms.Button x1;
+        private System.Windows.Forms.Button sinG;
+        private System.Windows.Forms.Button CosG;
+        private System.Windows.Forms.Button Arcsin;
+        private System.Windows.Forms.Button Arccos;
+        private System.Windows.Forms.Button Ctan;
+        private System.Windows.Forms.Button Arctan;
+        private System.Windows.Forms.Button ArcsinG;
+        private System.Windows.Forms.Button RadinGrad;
+        private System.Windows.Forms.Button GradinRad;
+        private System.Windows.Forms.Button Abs;
     }
 }
 

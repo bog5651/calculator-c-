@@ -28,6 +28,26 @@ namespace calcularot.MathFunction_factory_and_intarface
                     return new x10();
                 case "x1":
                     return new x1();
+                case "SinG":
+                    return new SinG();
+                case "CosG":
+                    return new CosG();
+                case "Arcsin":
+                    return new ArcsinG();
+                case "Arccos":
+                    return new Arccos();
+                case "Ctan":
+                    return new Ctan();
+                case "Arctan":
+                    return new Arctan();
+                case "ArcsinG":
+                    return new ArcsinG();
+                case "RadinGrad":
+                    return new RadinGrad();
+                case "GradinRad":
+                    return new GradinRad();
+                case "Abs":
+                    return new Abs();
                 default: throw new Exception("Неизвестная операция");
             }
         }

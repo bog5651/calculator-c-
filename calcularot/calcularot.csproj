@@ -45,8 +45,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abs.cs" />
+    <Compile Include="ArcsinG.cs" />
+    <Compile Include="Arctan.cs" />
+    <Compile Include="Ctan.cs" />
+    <Compile Include="GradinRad.cs" />
     <Compile Include="MathFunction factory and intarface\addition.cs" />
+    <Compile Include="MathFunction factory and intarface\Arccos.cs" />
+    <Compile Include="MathFunction factory and intarface\Arcsin.cs" />
     <Compile Include="MathFunction factory and intarface\Cos.cs" />
+    <Compile Include="MathFunction factory and intarface\CosG.cs" />
     <Compile Include="MathFunction factory and intarface\Division.cs" />
     <Compile Include="MathFunction factory and intarface\IOneArgumentsCalculation.cs" />
     <Compile Include="MathFunction factory and intarface\Ln.cs" />
@@ -55,6 +63,7 @@
     <Compile Include="MathFunction factory and intarface\Log2.cs" />
     <Compile Include="MathFunction factory and intarface\Multiplication.cs" />
     <Compile Include="MathFunction factory and intarface\OneArgumentFactory.cs" />
+    <Compile Include="MathFunction factory and intarface\sinG.cs" />
     <Compile Include="MathFunction factory and intarface\Sin.cs" />
     <Compile Include="MathFunction factory and intarface\Substraction.cs" />
     <Compile Include="Form1.cs">
@@ -71,6 +80,7 @@
     <Compile Include="MathFunction factory and intarface\x1.cs" />
     <Compile Include="MathFunction factory and intarface\x10.cs" />
     <Compile Include="MathFunction factory and intarface\x2.cs" />
+    <Compile Include="RadinGrad.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
