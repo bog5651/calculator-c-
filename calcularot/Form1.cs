@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using calcularot.OneArgumentClass;
-using calcularot.TwoArgumentClass;
+using calcularot.OneArgument;
+using calcularot.TwoArguments;
 
 namespace calcularot
 {
