@@ -1,4 +1,4 @@
-﻿namespace calcularot
+﻿namespace calcularot.TwoArgumentClass
 {
     public interface ITwoArgumentsCalculation
     {

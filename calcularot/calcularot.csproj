@@ -58,14 +58,14 @@
     <Compile Include="OneArgumentClass\CosG.cs" />
     <Compile Include="TwoArgumentClass\Arithmeticmean.cs" />
     <Compile Include="TwoArgumentClass\Division.cs" />
-    <Compile Include="IOneArgumentsCalculation.cs" />
+    <Compile Include="OneArgumentClass\IOneArgumentsCalculation.cs" />
     <Compile Include="OneArgumentClass\Ln.cs" />
     <Compile Include="OneArgumentClass\Ex.cs" />
     <Compile Include="OneArgumentClass\Log10.cs" />
     <Compile Include="OneArgumentClass\Log2.cs" />
     <Compile Include="TwoArgumentClass\Geometricmean.cs" />
     <Compile Include="TwoArgumentClass\Multiplication.cs" />
-    <Compile Include="OneArgumentFactory.cs" />
+    <Compile Include="OneArgumentClass\OneArgumentFactory.cs" />
     <Compile Include="OneArgumentClass\sinG.cs" />
     <Compile Include="OneArgumentClass\Sin.cs" />
     <Compile Include="TwoArgumentClass\Substraction.cs" />
@@ -77,9 +77,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ITwoArgumentsCalculation.cs" />
+    <Compile Include="TwoArgumentClass\ITwoArgumentsCalculation.cs" />
     <Compile Include="OneArgumentClass\Tan.cs" />
-    <Compile Include="TwoArgumentFactory.cs" />
+    <Compile Include="TwoArgumentClass\TwoArgumentFactory.cs" />
     <Compile Include="OneArgumentClass\x1.cs" />
     <Compile Include="OneArgumentClass\x10.cs" />
     <Compile Include="OneArgumentClass\x2.cs" />

@@ -1,7 +1,6 @@
 ﻿using System;
-using calcularot.OneArgumentClass;
 
-namespace calcularot
+namespace calcularot.OneArgumentClass
 {
     public static class OneArgumentFactory
     {

@@ -1,4 +1,4 @@
-﻿namespace calcularot
+﻿namespace calcularot.OneArgumentClass
 {
     public interface IOneArgumentsCalculation
     {
