@@ -6,12 +6,13 @@ namespace Calculator.Tests.TwoArguments
     [TestFixture]
     public class MultiplicationTest
     {
-        [Test]
-        public void CalculateTest()
+        [TestCase(2, 2, 4)]
+        [TestCase(2, 4, 8)]
+        [TestCase(2, 6, 12)]
+        public void CalculateTest(double first, double second, double expected)
         {
             var calculator = new Multiplication();
-            Assert.AreEqual(1, calculator.Calculate(1, 1));
-            Assert.AreEqual(-9, calculator.Calculate(3, -3));
+            Assert.AreEqual(expected, calculator.Calculate(first, second));
         }
     }
 }

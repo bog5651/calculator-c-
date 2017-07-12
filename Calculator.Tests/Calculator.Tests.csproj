@@ -43,6 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgument\AbsTest.cs" />
+    <Compile Include="OneArgument\ArccosTest.cs" />
+    <Compile Include="OneArgument\ArcsinGTest.cs" />
+    <Compile Include="OneArgument\ArcsinTest.cs" />
+    <Compile Include="OneArgument\ArcTanTest.cs" />
+    <Compile Include="OneArgument\CosGTest.cs" />
+    <Compile Include="OneArgument\CtanTest.cs" />
+    <Compile Include="OneArgument\GradinRadTest.cs" />
+    <Compile Include="OneArgument\RadInGradTest.cs" />
+    <Compile Include="TwoArguments\ArithmeticmeanTest.cs" />
+    <Compile Include="TwoArguments\GeometricmeanTest.cs" />
+    <Compile Include="TwoArguments\RemainderTest.cs" />
+    <Compile Include="OneArgument\SinGTest.cs" />
     <Compile Include="TwoArguments\AdditionTest.cs" />
     <Compile Include="TwoArguments\DivisionTest.cs" />
     <Compile Include="TwoArguments\MultiplicationTest.cs" />
@@ -57,8 +70,6 @@
       <Name>calcularot</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="OneArgument\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
