@@ -1,7 +1,7 @@
 ﻿using calcularot.TwoArguments;
 using NUnit.Framework;
 
-namespace Calculator.Tests.OneArgument
+namespace Calculator.Tests.TwoArguments
 {
     [TestFixture]
     public class MultiplicationTest
