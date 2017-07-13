@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@using (Html.BeginForm("Calculate", "Home"))
+{
+    <input name="First" type="number" />
+    <input name="Second" type="number" />
+    <select name="operation">
+        @for (int i = 0; i < ViewBag.Operations.Count; i++)
+        {
+            <option value=" @ViewBag.Operations[i].Value">@ViewBag.Operations[i].Text</option>
+        }
+    </select>
+    <input type="submit" value="Calculate"/>
+
+}
