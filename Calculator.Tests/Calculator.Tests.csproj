@@ -56,6 +56,7 @@
     <Compile Include="OneArgument\LnTest.cs" />
     <Compile Include="OneArgument\Log10Test.cs" />
     <Compile Include="OneArgument\Log2Test.cs" />
+    <Compile Include="OneArgument\OneArgumentFactoryTest.cs" />
     <Compile Include="OneArgument\RadInGradTest.cs" />
     <Compile Include="OneArgument\SinTest.cs" />
     <Compile Include="OneArgument\TanTest.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="TwoArguments\DivisionTest.cs" />
     <Compile Include="TwoArguments\MultiplicationTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TwoArguments\TwoArgumentFactoryTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
